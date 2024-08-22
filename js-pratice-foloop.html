@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <h2>Javascript For Of Loop</h2>
+    <p>The For of statement loops through the value of any iterable object</p>
+    
+    <p id="places"></p>
+
+    <script>
+        const places= ["Canada", "London", "Isreal"];
+        let text="";
+        for (let x of places){
+            text += x + "<br>";
+        }
+        document.getElementById("places").innerHTML = text;
+    </script>
+    
+</body>
+</html>
